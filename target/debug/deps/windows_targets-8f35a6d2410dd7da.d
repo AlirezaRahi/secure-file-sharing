@@ -1,7 +1,0 @@
-C:\Alex\project_rust\crypto\Github\secure-file-sharing\secure-file-sharing\target\debug\deps\windows_targets-8f35a6d2410dd7da.d: C:\Users\alire\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\windows-targets-0.52.6\src\lib.rs
-
-C:\Alex\project_rust\crypto\Github\secure-file-sharing\secure-file-sharing\target\debug\deps\libwindows_targets-8f35a6d2410dd7da.rlib: C:\Users\alire\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\windows-targets-0.52.6\src\lib.rs
-
-C:\Alex\project_rust\crypto\Github\secure-file-sharing\secure-file-sharing\target\debug\deps\libwindows_targets-8f35a6d2410dd7da.rmeta: C:\Users\alire\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\windows-targets-0.52.6\src\lib.rs
-
-C:\Users\alire\.cargo\registry\src\index.crates.io-1949cf8c6b5b557f\windows-targets-0.52.6\src\lib.rs:
