@@ -1,4 +1,4 @@
-# 🔐 Secure File Sharing System
+#  Secure File Sharing System
 
 ![Version](https://img.shields.io/badge/version-2.0-blue)
 ![Rust](https://img.shields.io/badge/rust-2021-orange)
@@ -7,11 +7,27 @@
 
 A **high-security enterprise file sharing system** with advanced cryptographic verification, deduplication, and integrity checking. Built with Rust for maximum performance and safety.
 
-> **"Enterprise Security at Startup Cost"** 🚀
+> **"Enterprise Security at Startup Cost"** 
+>
+> # Preprint Information
+#### This project is based on the research preprint:
+
+###### Submitted to TechRxiv: 22 Feb 2026
+
+###### Published in TechRxiv: 27 Feb 2026
+
+## Cite as:
+##### Alireza Rahi. "A Multi-Layer Cryptographic Framework for Secure File Sharing with Integrity Proofs and Deduplication." TechRxiv. February 27, 2026.
+
+##### DOI: 10.36227/techrxiv.177220772.26162879/v1
+
+##### Note: e-Prints posted on TechRxiv are preliminary reports that are not peer reviewed. They should not be regarded as conclusive, guide clinical practice/health-related behavior, or be reported in the media as established information.
+
+
 
 ---
 
-## 📋 Table of Contents
+##  Table of Contents
 - [Features](#-features)
 - [Architecture](#-architecture)
 - [Technical Stack](#-technical-stack)
@@ -30,28 +46,28 @@ A **high-security enterprise file sharing system** with advanced cryptographic v
 
 ---
 
-## ✨ Features
+##  Features
 
-### 🔒 **Core Security**
+###  **Core Security**
 - **Multi-algorithm Hashing** (SHA-256, SHA-512, SHA3-256, SHA3-512)
 - **Merkle Tree** for file integrity verification
 - **Cryptographic Commitments** for secure sharing
 - **Bloom Filter** for fast existence checks
 - **File Authentication** with integrity proofs
 
-### 💾 **Smart Storage**
+###  **Smart Storage**
 - **Automatic Deduplication** - Store once, share many times
 - **Chunk-based Storage** (1MB chunks for optimal performance)
 - **Metadata Management** with SQLite
 - **Space Savings** - Up to 90% reduction in storage costs
 
-### 👥 **User Management**
+###  **User Management**
 - Secure user registration and login
 - Password hashing with SHA-256
 - Session management
 - User-specific file access control
 
-### 🔗 **File Sharing**
+###  **File Sharing**
 - Secure peer-to-peer sharing
 - Cryptographic commitment proofs
 - Share expiration support
@@ -65,7 +81,7 @@ A **high-security enterprise file sharing system** with advanced cryptographic v
 
 ---
 
-## 🏗 Architecture
+##  Architecture
 
 ```
 secure-file-sharing/
@@ -91,7 +107,7 @@ secure-file-sharing/
 
 ---
 
-## 🛠 Technical Stack
+##  Technical Stack
 
 | Component | Technology | Purpose |
 |-----------|------------|---------|
@@ -105,7 +121,7 @@ secure-file-sharing/
 
 ---
 
-## 📦 Installation
+##  Installation
 
 ### Prerequisites
 - Rust (2021 edition) - [Install Rust](https://www.rust-lang.org/tools/install)
@@ -138,7 +154,7 @@ docker run -it --rm -v $(pwd)/data:/app/data secure-file-sharing
 
 ---
 
-## 🚀 Quick Start
+##  Quick Start
 
 ### 1. **Register a new user**
 ```bash
@@ -151,7 +167,7 @@ Enter email: alice@company.com
 
 ### 2. **Login**
 ```bash
-🔑 USER LOGIN
+ USER LOGIN
 Enter username: alice
 Enter password: ********
 ✅ Welcome back, alice!
@@ -159,7 +175,7 @@ Enter password: ********
 
 ### 3. **Upload a file**
 ```bash
-📤 UPLOAD FILE
+ UPLOAD FILE
 Enter file path: ./document.pdf
 Enter description: Annual Report 2024
 ✅ File uploaded successfully!
@@ -178,7 +194,7 @@ Enter username: bob
 
 ---
 
-## 📖 Usage Guide
+##  Usage Guide
 
 ### Main Menu Options
 
@@ -214,7 +230,7 @@ MAIN MENU
 
 #### **System Monitoring**
 ```bash
-📊 SYSTEM STATISTICS
+ SYSTEM STATISTICS
 ═══════════════════════════════════════
 Total Users        : 25
 Total Files        : 1,247
@@ -228,7 +244,7 @@ Bloom FP Rate      : 0.0083
 
 ---
 
-## 🔐 Security Features
+##  Security Features
 
 ### 1. **Multi-Layer Hashing**
 ```rust
@@ -290,7 +306,7 @@ assert!(commitment.verify(file_hash.as_bytes()));
 
 ---
 
-## 📊 Comparison with Competitors
+##  Comparison with Competitors
 
 | Feature | Google Drive | Dropbox | **Secure File Sharing** |
 |---------|--------------|---------|------------------------|
@@ -309,7 +325,7 @@ assert!(commitment.verify(file_hash.as_bytes()));
 
 ---
 
-## 🏢 Use Cases
+##  Use Cases
 
 ### **1. Enterprise Document Management**
 - Secure internal document sharing
@@ -343,7 +359,7 @@ assert!(commitment.verify(file_hash.as_bytes()));
 
 ---
 
-## 💼 Business Value
+##  Business Value
 
 ### **Cost Savings**
 - **70-90% reduction** in storage costs
@@ -372,20 +388,20 @@ assert!(commitment.verify(file_hash.as_bytes()));
 
 ## 🗺 Roadmap
 
-### Version 2.0 (Current) ✅
+### Version 2.0 (Current) 
 - [x] Core cryptographic primitives
 - [x] Deduplication engine
 - [x] Merkle tree implementation
 - [x] SQLite integration
 - [x] CLI interface
 
-### Version 2.1 (09 2026) 🚧
+### Version 2.1 (09 2026) 
 - [ ] REST API
 - [ ] Web interface
 - [ ] LDAP/Active Directory integration
 - [ ] Encryption at rest
 
-### Version 3.0 (05 2027) 📅
+### Version 3.0 (05 2027) 
 - [ ] Distributed storage
 - [ ] Blockchain-based audit trail
 - [ ] Mobile apps (iOS/Android)
@@ -393,7 +409,7 @@ assert!(commitment.verify(file_hash.as_bytes()));
 
 ---
 
-## 🤝 Contributing
+##  Contributing
 
 Contributions are welcome! Please read our [Contributing Guidelines](CONTRIBUTING.md).
 
@@ -421,12 +437,12 @@ RUST_LOG=debug cargo run
 
 ---
 
-## 👨 Author
+##  Author
 
 ### **Alireza Rahi**
 *Independent Researcher & Security Enthusiast*
 
-📍 Tehran, Iran
+
 
  **Email:** [Alireza.rahi@outlook.com](mailto:Alireza.rahi@outlook.com)
 
@@ -457,7 +473,7 @@ of this software and associated documentation files...
 
 ---
 
-## 🌟 Support
+##  Support
 
 If you find this project useful, please consider:
 -  Starring the repository
@@ -467,17 +483,27 @@ If you find this project useful, please consider:
 
 ---
 
-## 📚 Citation
+##  Citation
 
 If you use this project in your research:
 
 ```bibtex
-@software{rahi2024secure,
+@software{rahi2026secure,
   author = {Alireza Rahi},
-  title = {Secure File Sharing System with Cryptographic Verification},
-  year = {2024},
+  title = {A Multi-Layer Cryptographic Framework for Secure File Sharing with Integrity Proofs and Deduplication},
+  year = {2026},
   publisher = {GitHub},
   url = {https://github.com/AlirezaRahi/secure-file-sharing}
+}
+
+@article{rahi2026multilayer,
+  author = {Alireza Rahi},
+  title = {A Multi-Layer Cryptographic Framework for Secure File Sharing with Integrity Proofs and Deduplication},
+  journal = {TechRxiv},
+  year = {2026},
+  month = {February},
+  doi = {10.36227/techrxiv.177220772.26162879/v1},
+  url = {https://doi.org/10.36227/techrxiv.177220772.26162879/v1}
 }
 ```
 
